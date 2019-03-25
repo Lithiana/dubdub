@@ -1,7 +1,0 @@
-{
-    "appService.zipIgnorePattern": [
-        ".vscode{,/**}"
-    ],
-    "appService.defaultWebAppToDeploy": "/subscriptions/e2fd4b3e-5495-4495-b2c7-d03127e55e88/resourceGroups/appsvc_rg_linux_centralus/providers/Microsoft.Web/sites/dubdubapi",
-    "appService.deploySubpath": ""
-}
