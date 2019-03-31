@@ -4,6 +4,6 @@ module.exports = (app, db) => {
     );
 
     app.post( "/users", (req, res) =>
-      db.user.save(req)
+      db.user.create(req)
     );
 }

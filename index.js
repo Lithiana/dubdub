@@ -1,7 +1,7 @@
 var express = require("express");
 var db = require("./models");
-var apiUser = require("./api/user");
-var apiEvent = require("./api/event");
+var apiUser = require("./api/users");
+var apiEvent = require("./api/events");
 
 var app = express();
 apiUser(app, db);

@@ -1,7 +1,7 @@
 var Sequelize = require('sequelize');
 var db = {};
 
-var sequelize = new Sequelize('dubdub', 'tdestouc@dubdubbdd', '&Password28!', { host: "dubdubbdd.mysql.database.azure.com", dialect: "mysql" });
+var sequelize = new Sequelize('', '', '', { host: "", dialect: "mysql" });
 
 // USER
 var user = sequelize.import("user");
